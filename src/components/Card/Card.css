@@ -1,0 +1,36 @@
+/* Card */
+.card {
+  width: 500px;
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.7rem;
+  -webkit-border-radius: 0.7rem;
+  -moz-border-radius: 0.7rem;
+  -ms-border-radius: 0.7rem;
+  -o-border-radius: 0.7rem;
+  padding: 1.7rem;
+}
+
+/* Card title */
+.card__title {
+  color: hsl(150, 100%, 66%);
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.5rem;
+}
+
+/* Card Body */
+.card__body {
+  color: hsl(193, 38%, 86%);
+  list-style: 1.5;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Card line Container */
+.card__line__container {
+}
