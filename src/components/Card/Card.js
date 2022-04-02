@@ -1,7 +1,15 @@
 import React, { Component } from "react";
+import Button from "../Button/Button";
 import "./Card.css";
 
 class Card extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      patternMobile: false,
+    };
+  }
+
   render() {
     const { title, body } = this.props;
     return (
@@ -20,6 +28,7 @@ class Card extends Component {
           />
         </div>
         {/* Button */}
+        <Button />
       </div>
     );
   }

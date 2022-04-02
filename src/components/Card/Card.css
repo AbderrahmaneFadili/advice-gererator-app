@@ -1,6 +1,6 @@
 /* Card */
 .card {
-  width: 500px;
+  width: 50%;
   background-color: hsl(217, 19%, 24%);
   display: flex;
   justify-content: center;
@@ -12,6 +12,7 @@
   -ms-border-radius: 0.7rem;
   -o-border-radius: 0.7rem;
   padding: 1.7rem;
+  position: relative;
 }
 
 /* Card title */
@@ -21,6 +22,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 0.5rem;
+  font-weight: 300;
 }
 
 /* Card Body */
@@ -33,4 +35,10 @@
 
 /* Card line Container */
 .card__line__container {
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 90%;
+  }
 }
