@@ -3,15 +3,8 @@ import Button from "../Button/Button";
 import "./Card.css";
 
 class Card extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      patternMobile: false,
-    };
-  }
-
   render() {
-    const { title, body } = this.props;
+    const { title, body, generateAdvice } = this.props;
     return (
       <div className="card">
         {/* Title */}
@@ -28,7 +21,7 @@ class Card extends Component {
           />
         </div>
         {/* Button */}
-        <Button />
+        <Button onClick={generateAdvice} />
       </div>
     );
   }

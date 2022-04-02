@@ -20,6 +20,6 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 1000px;
+  height: 100vh;
   background-color: hsl(218, 23%, 16%);
 }
