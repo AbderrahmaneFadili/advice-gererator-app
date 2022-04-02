@@ -14,10 +14,18 @@ class Card extends Component {
         {/* Line Pattern */}
         <div className="card__line__container">
           <img
+            className="pattern-desktop"
             src={
               require("../../assets/images/pattern-divider-desktop.svg").default
             }
-            alt=""
+            alt="pattern desktop"
+          />
+          <img
+            className="pattern-mobile"
+            src={
+              require("../../assets/images/pattern-divider-mobile.svg").default
+            }
+            alt="pattern mobile"
           />
         </div>
         {/* Button */}
