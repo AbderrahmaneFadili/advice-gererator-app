@@ -16,7 +16,7 @@
 }
 
 .button__refresh {
-  background-color: hsl(150, 100%, 66%);
+  background-color: #52ffa8;
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
